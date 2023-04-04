@@ -2,7 +2,7 @@
 	import '../app.css';
 </script>
 
-<nav class="bg-lime-600 w-auto h-14 flex flex-row items-center p-6 font text-xl text-white">
+<nav class="bg-lime-600 w-full h-14 flex flex-row items-center p-6 font text-xl text-white fixed">
 	<ul class="flex flex-row gap-4">
 		<li><a href="/">Home</a></li>
 		<li><a href="/class">Class</a></li>
@@ -18,5 +18,6 @@
 <style lang="postcss">
 	:global(html) {
 		background-color: theme(colors.teal.950);
+		scroll-behavior: smooth;
 	}
 </style>
